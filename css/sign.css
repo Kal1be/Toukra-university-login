@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+   background-image: url("/img/images\ vrai.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ensem{
+    margin:5px 20px;
+}
+header{
+    background-color: white;
+    border-top: 7px solid rgb(3, 170, 3);
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+header div{
+    display: flex;
+}
+.header{
+   margin-left: 20px;
+}
+.header img{
+    width: 60px;
+    height: 60px;
+}
+.header h2{
+    margin-top: 12px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.header h2 strong{
+    color:rgb(0, 201, 0);
+}
+.header h2 span{
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    color: #414141;
+}
+.hr{
+    text-align: center;
+    margin-left: 10px;
+}
+.hr hr{
+    width: 99%;
+    border: 2px solid gray;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+    background-color: white;
+   border-left: 4px solid rgb(1, 145, 1);
+}
+.authentifier p span{
+display: block;
+line-height: 1.5em;
+padding: 5px 20px;
+}
+.authentifier h3{
+    padding: 10px 0;
+    font-weight: 500;
+    font-size: 26px;
+}
+.authentifier h2{
+    font-weight: 500;
+    padding: 10px 0;
+    font-size: 28px;
+}
+.authentifier p{
+    line-height: 1.7em;
+}
+
+.form {
+    background-color:rgb(238, 255, 255);
+    padding: 10px 40px;
+    border-radius: 5px;
+    width: 48%;
+}
+.form img{
+    text-align: center;
+    width: 90px;
+  margin-left: 110px;
+}
+.form p{
+    font-size: 17px;
+    padding: 15px;
+}
+.form hr{
+    border: 1px solid rgb(2, 168, 2);
+   
+}
+.form form{
+    padding: 10px 0;
+}
+.contenu{
+    margin: 20px 0;
+}
+.contenu label{
+    margin: 20px 0;
+    padding: 20px 0;
+    position: relative;
+  bottom: 3px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.contenu input{
+    display: block;
+    width: 100%;
+    padding: 6px 0;
+}
+.form .submit{
+    text-align: center;
+    margin: 20px 30px;
+    margin-left: 180px;
+    padding: 7px 15px;
+    color: white;
+    background-color: rgb(2, 153, 2);
+    border: 2px solid rgb(0, 151, 0);
+    border-radius: 2px;
+    
+}
+.input{
+   border: 2px solid azure;
+   background-color: rgb(223, 235, 245);
+}
+.footer{
+    background-color: rgb(28, 133, 28);
+    padding: 20px;
+    color: white;
+    font-weight: 500;
+    justify-content: space-between;
+    width: 170%;
+    display: flex;
+    
+}
+.footer span{
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+@media(max-width:800px){
+    .ensem{
+        margin: 5px 5px;
+    }
+    .header{
+        margin-left: 0;
+    }
+    .header h2{
+        font-size: 24px;
+    }
+    .hr{
+        margin-left: 20px;
+    }
+    nav{
+        display: block;
+        padding: 10px 10px;
+    }
+    .authentifier p span{
+        display: block;
+        line-height: 1.8em;
+        padding: 2px 20px;
+        }
+        .authentifier h3{
+            font-size: 20px;
+        }
+        .authentifier h2{
+            font-size: 22px;
+        }
+    .form{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .form img{
+        margin-left: 0;
+        width: 100px;
+    }
+   .form .submit{
+        margin-left: 60%;
+    }
+    .contenu input{
+        padding: 10px 0;
+        border: 2px solid gainsboro;
+    }
+    .input{
+        border: none;
+    }
+    .footer{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .footer span{
+        display: block;
+    }
+    .span{
+        display: block;
+       margin: 5px 0;
+    }
+}
